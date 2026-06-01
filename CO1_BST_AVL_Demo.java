@@ -1,12 +1,11 @@
-import java.util.*;
-
-/*
+ /*
  * CO1 Topic: Binary Search Tree and AVL Tree
  * This program demonstrates:
  * 1. Plain BST insertion, search and inorder traversal.
  * 2. AVL insertion with automatic LL, RR, LR and RL rotations.
  * 3. AVL deletion with rebalancing after node removal.
  */
+import java.util.*;
 public class CO1_BST_AVL_Demo {
     static class Node {
         int key;
