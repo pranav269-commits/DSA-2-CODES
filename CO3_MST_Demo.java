@@ -1,10 +1,7 @@
-
-import java.util.*;
-
 /*
  * CO3 Topic: Minimum Spanning Tree using Kruskal and Prim
  * This program implements both MST algorithms for an undirected weighted graph.
- */
+ */import java.util.*;
 public class CO3_MST_Demo {
     static class Edge implements Comparable<Edge> {
         int u, v, w;
