@@ -1,5 +1,3 @@
-import java.util.*;
-
 /*
  * CO2 Topic: Segment Tree
  * This program implements a range-sum segment tree with:
@@ -7,6 +5,7 @@ import java.util.*;
  * 2. O(log n) range sum query.
  * 3. O(log n) point update.
  */
+import java.util.*;
 public class CO2_SegmentTree_Demo {
     static class SegmentTree {
         int n;
